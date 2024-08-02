@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 
 function Nav() {
   return (
-    <div className=' py-3 px-3 flex items-center justify-between'>
+    <div className=' py-3 sm:px-20 px-3 flex items-center justify-between'>
      <div className="logo"><img src={Logo} className='w-24 object-cover'/></div>
      <ul className='font-medium text-zinc-800/70 flex top-0 w-1/2 sm:w-auto flex-col sm:flex-row items-center gap-3 uppercase absolute sm:relative'>
           <li><NavLink to='/' className={({isActive})=>`${ isActive ? 'text-orange-400' : 'text-zinc-800/80'}`} >Today's price</NavLink></li>

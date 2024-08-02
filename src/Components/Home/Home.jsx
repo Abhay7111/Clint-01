@@ -5,6 +5,10 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import gold from '/gold.jpg'
+import goldh from '/goldh.jpg'
+import gold_jewelry from '/gold-jewelry.jpg'
+import gemstone from '/gemstone.jpg'
 
 function Home() {
   return (
@@ -16,11 +20,10 @@ function Home() {
         modules={[Pagination, Navigation]}
         className="mySwiper w-full"
       >
-      <SwiperSlide className=' w-96 bg-red-400'>Slide 1</SwiperSlide>
-      <SwiperSlide className=' w-96 bg-blue-400'>Slide 2</SwiperSlide>
-      <SwiperSlide className=' w-96 bg-green-400'>Slide 3</SwiperSlide>
-      <SwiperSlide className=' w-96 bg-yellow-400'>Slide 4</SwiperSlide>
-      ...
+      <SwiperSlide className=' w-96 bg-red-400'><img src={gold} className='w-full h-[80vh] object-cover object-center' /></SwiperSlide>
+      <SwiperSlide className=' w-96 bg-red-400'><img src={goldh} className='w-full h-[80vh] object-cover object-center' /></SwiperSlide>
+      <SwiperSlide className=' w-96 bg-red-400'><img src={gold_jewelry} className='w-full h-[80vh] object-cover object-center' /></SwiperSlide>
+      <SwiperSlide className=' w-96 bg-red-400'><img src={gemstone} className='w-full h-[80vh] object-cover object-center' /></SwiperSlide>
     </Swiper>
     </div>
   )
