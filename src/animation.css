@@ -1,0 +1,15 @@
+html,body{
+     overflow-x: hidden;
+     font-family: Calibri;
+}
+
+.right-full{
+     right: -100%;
+}
+
+.bg-img{
+     background-color: rgb(255, 255, 255);
+     background-blend-mode: luminosity;
+     background-image: url(https://cdn.pixabay.com/photo/2016/04/10/21/28/flower-1320797_1280.png);
+     background-size: 70px;
+}

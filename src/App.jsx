@@ -10,7 +10,9 @@ function App() {
 
   return (
     <>
+      <div className='overflow-hidden'>
       <Nav/>
+      </div>
         <Outlet/>
       <Footer/>
     </>
