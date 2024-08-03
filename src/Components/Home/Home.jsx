@@ -11,6 +11,8 @@ import gold_jewelry from '/gold-jewelry.jpg'
 import gemstone from '/gemstone.jpg'
 import Shapes from '/Shapes.png';
 import { NavLink } from 'react-router-dom';
+import lftvid from '/19259-300109084_medium.mp4'
+import rghtvid from '/24571-344258644_medium.mp4'
 
 function Home() {
   return (
@@ -62,12 +64,17 @@ function Home() {
           </div>
      </div>
      <div className='w-full py-5 flex items-center justify-center'>
-          <div className='w-32 sm:w-[15%] h-60 bg-green-400'>
-               <video src="" muted autoPlay></video>
+          <div className='w-32 sm:w-[25%] h-60 sm:h-[580px] bg-green-400'>
+               <video src={lftvid} muted autoPlay loop className='w-full h-full object-cover object-center'></video>
           </div>
-          <div className='w-1/2 h-60 bg-red-400'></div>
-          <div className='w-32 sm:w-[15%] h-60 bg-green-400'>
-               <video src="" muted autoPlay></video>
+          <div className='w-1/2 h-60 sm:h-[580px] bg-zinc-100 flex flex-col items-center'>
+               <h1 className='text-[7vw] sm:text-[5.5vw] uppercase font-medium leading-none pt-5'>Apsara</h1>
+               <p className='Playwrite-AR text-[4vw] sm:text-[4vw] pt-5 leading-none' title='By Vani jewelry'>By Vani jewelry</p>
+               <p className='text-sm sm:text-3xl text-center py-5 sm:pt-10'>A fast moving world of <br /> expression</p>
+               <a href="#" className='text-base text-zinc-100 bg-gradient-to-b hover:from-rose-400 hover:to-zinc-800 transition-all from-slate-400 to-zinc-800 uppercase py-1.5 px-3 rounded-md bg-zinc-600'>View collections</a>
+          </div>
+          <div className='w-32 sm:w-[25%] h-60 sm:h-[580px] bg-green-400'>
+               <video src={rghtvid} muted autoPlay loop className='w-full h-full object-cover object-center'></video>
           </div>
      </div>
     </div>
