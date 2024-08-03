@@ -8,8 +8,8 @@ function Category({categorydata}) {
      <img src={categorydata.img} className={` object-cover  ${categorydata.style} transition-all`} />
      </div>
      <div className='absolute bottom-0 left-0 h-16 w-full py-2 bg-zinc-800/70 flex flex-col items-center'>
-          <h2 className='text-2xl text-zinc-50 font-bold'>{categorydata.title}</h2>
-          <NavLink to={categorydata.url} className='text-zinc-50'>{categorydata.disc}</NavLink>
+          <h2 className='text-xl text-zinc-50 font-bold'>{categorydata.title}</h2>
+          <NavLink to={categorydata.url} className='text-sm text-zinc-50'>{categorydata.disc}</NavLink>
      </div>
     </div>
   )

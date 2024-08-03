@@ -10,6 +10,18 @@ import goldh from '/goldh.jpg'
 import gold_jewelry from '/gold-jewelry.jpg'
 import gemstone from '/gemstone.jpg'
 import Shapes from '/Shapes.png';
+import Ring01 from '/ring01-transformed.png';
+import Ring02 from '/ring02-transformed.png';
+import Ring03 from '/ring03-transformed.png';
+import Ring04 from '/ring04-transformed.png';
+import Ring05 from '/ring05-transformed.png';
+import Ring06 from '/ring06-transformed.png';
+import Ring07 from '/ring07-transformed.png';
+import Ring08 from '/ring08-transformed.png';
+import Ring09 from '/ring09-transformed.png';
+import Ring10 from '/ring10-transformed.png';
+import Ring11 from '/ring11-transformed.png';
+import Ring12 from '/ring12-transformed.png';
 import { NavLink } from 'react-router-dom';
 import lftvid from '/19259-300109084_medium.mp4'
 import rghtvid from '/24571-344258644_medium.mp4'
@@ -20,63 +32,63 @@ function Home() {
           {
                title:"Ring",
                url:"earrings",
-               img:"https://cdn.pixabay.com/photo/2016/04/17/21/56/wedding-1335649_1280.png",
+               img:Ring01,
                disc:"Explore >",
                style:'w-[96%] h-[80%] hover:scale-110',
           },
           {
                title:"Ring",
                url:"earrings",
-               img:"https://cdn.pixabay.com/photo/2018/05/21/04/35/ring-3417372_1280.png",
+               img:Ring02,
                disc:"Explore >",
                style:'h-full hover:scale-110',
           },
           {
                title:"Ornament",
                url:"earrings",
-               img:"https://cdn.pixabay.com/photo/2018/05/23/18/08/ring-with-ornament-3424669_1280.png",
+               img:Ring03,
                disc:"Explore >",
                style:'h-full hover:scale-110',
           },
           {
                title:"Ring",
                url:"earrings",
-               img:"https://cdn.pixabay.com/photo/2019/11/24/14/15/diamond-4649510_1280.png",
+               img:Ring04,
                disc:"Explore >",
                style:'h-full hover:scale-110',
           },
           {
                title:"Earrings",
                url:"earrings",
-               img:"https://cdn.pixabay.com/photo/2022/03/01/18/12/bali-7041811_1280.jpg",
+               img:Ring05,
                disc:"Explore >",
                style:'h-full hover:scale-110',
           },
           {
                title:"Earrings",
                url:"earrings",
-               img:"https://cdn.pixabay.com/photo/2022/03/01/18/12/bali-7041811_1280.jpg",
+               img:Ring06,
                disc:"Explore >",
                style:'h-full hover:scale-110',
           },
           {
                title:"Earrings",
                url:"earrings",
-               img:"https://cdn.pixabay.com/photo/2022/03/01/18/12/bali-7041811_1280.jpg",
+               img:Ring07,
                disc:"Explore >",
                style:'h-full hover:scale-110',
           },
           {
                title:"Earrings",
                url:"earrings",
-               img:"https://cdn.pixabay.com/photo/2022/03/01/18/12/bali-7041811_1280.jpg",
+               img:Ring08,
                disc:"Explore >",
                style:'h-full hover:scale-110',
           },
           {
                title:"Earrings",
                url:"earrings",
-               img:"https://cdn.pixabay.com/photo/2022/03/01/18/12/bali-7041811_1280.jpg",
+               img:Ring09,
                disc:"Explore >",
                style:'h-full hover:scale-110',
           },
