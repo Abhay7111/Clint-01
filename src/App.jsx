@@ -9,13 +9,13 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div className='overflow-hidden'>
+    <div className='w-full flex flex-col items-center'>
+      <div className='overflow-hidden w-full'>
       <Nav/>
       </div>
         <Outlet/>
       <Footer/>
-    </>
+    </div>
   )
 }
 
