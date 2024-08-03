@@ -31,7 +31,7 @@ function Home() {
      </Swiper>
      <div className='w-full bg-img'>
           <div className='w-full h-full py-5 flex flex-col gap-3 items-center bg-[#ffffffb4]'>
-               <h2 className='uppercase w-full text-center font-medium text-2xl sm:text-4xl py-6 text-zinc-700'>Brides of India</h2>
+               <h2 className='uppercase w-full text-center text-3xl sm:text-4xl py-6 text-zinc-700'>Brides of India</h2>
                <div className='flex items-start justify-center gap-4'>
                     <div className=' bg-[#ebebeba6] w-[150px] sm:w-80 overflow-hidden'>
                     <div className='overflow-hidden'>
@@ -64,7 +64,7 @@ function Home() {
           </div>
      </div>
      <div className='w-full py-5 flex items-center justify-center'>
-          <div className='w-32 sm:w-[25%] h-60 sm:h-[580px] bg-green-400'>
+          <div className='w-32 sm:w-[25%] h-60 sm:h-[580px] '>
                <video src={lftvid} muted autoPlay loop className='w-full h-full object-cover object-center'></video>
           </div>
           <div className='w-1/2 h-60 sm:h-[580px] bg-zinc-100 flex flex-col items-center'>
@@ -73,7 +73,7 @@ function Home() {
                <p className='text-sm sm:text-3xl text-center py-5 sm:pt-10'>A fast moving world of <br /> expression</p>
                <a href="#" className='text-base text-zinc-100 bg-gradient-to-b hover:from-rose-400 hover:to-zinc-800 transition-all from-slate-400 to-zinc-800 uppercase py-1.5 px-3 rounded-md bg-zinc-600'>View collections</a>
           </div>
-          <div className='w-32 sm:w-[25%] h-60 sm:h-[580px] bg-green-400'>
+          <div className='w-32 sm:w-[25%] h-60 sm:h-[580px] '>
                <video src={rghtvid} muted autoPlay loop className='w-full h-full object-cover object-center'></video>
           </div>
      </div>
