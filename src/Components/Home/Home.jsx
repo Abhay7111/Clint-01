@@ -108,31 +108,31 @@ function Home() {
       <SwiperSlide className=' w-96'><img src={gemstone} className='w-full h-80 sm:h-[80vh] object-cover object-center' /></SwiperSlide>
      </Swiper>
      <div className='w-full bg-img-gold'>
-          <div className='w-full h-full py-5 flex flex-col gap-3 items-center bg-[#ffffff6e]'>
-               <h2 className='uppercase w-full text-center text-3xl sm:text-4xl py-6 text-zinc-700'>Brides of India</h2>
-               <div className='flex items-start justify-center gap-4'>
-                    <div className=' bg-gradient-to-br from-yellow-600/80 to-orange-500/80 w-[150px] p-1 sm:w-80 overflow-hidden'>
+          <div className='w-full h-full py-5 flex flex-col gap-3 items-center bg-[#c7c7c76e]'>
+               <h2 className='uppercase w-fit px-5 bg-gradient-to-l from-orange-400/90 to-orange-600/90 my-5 text-center text-3xl sm:text-4xl py-1.5 text-zinc-100'>Brides of India</h2>
+               <div className='flex items-start justify-center gap-4 flex-wrap'>
+                    <div className=' bg-gradient-to-br from-yellow-600/80 to-orange-500/80 w-[45%] p-1 sm:w-80 overflow-hidden'>
                     <div className='overflow-hidden'>
                          <NavLink to=''>
-                              <img src="https://cdn.pixabay.com/photo/2016/10/16/12/28/mehndi-designs-1745048_1280.jpg" className='w-full hover:scale-110 transition-transform h-60 sm:h-[450px] object-cover' />
+                              <img src="https://cdn.pixabay.com/photo/2016/10/16/12/28/mehndi-designs-1745048_1280.jpg" className='w-full hover:scale-110 transition-slow h-80 sm:h-[450px] object-cover' />
                          </NavLink>
                     </div>
                          <h2 className=' w-full text-center text-lg text-wrap px-2 font-medium mt-4 '>The Golden Bride</h2>
                          <p className=' w-full text-center text-sm sm:text-lg text-wrap'>An expression of breathtaking <br /> ethnics</p>
                     </div>
-                    <div className='bg-gradient-to-br from-yellow-600/80 to-orange-500/80 w-[150px] p-1 sm:w-80 overflow-hidden'>
+                    <div className='bg-gradient-to-br from-yellow-600/80 to-orange-500/80 w-[45%] p-1 sm:w-80 overflow-hidden'>
                     <div className='overflow-hidden'>
                          <NavLink to=''>
-                              <img src="https://cdn.pixabay.com/photo/2017/06/18/14/47/bindi-2416039_1280.jpg" className='w-full hover:scale-110 transition-transform h-60 sm:h-[450px] object-cover' />
+                              <img src="https://cdn.pixabay.com/photo/2017/06/18/14/47/bindi-2416039_1280.jpg" className='w-full hover:scale-110 transition-slow h-80 sm:h-[450px] object-cover' />
                          </NavLink>
                     </div>
                          <h2 className=' w-full text-center text-lg text-wrap px-2 font-medium mt-4 '>The Diamond Bride</h2>
                          <p className=' w-full text-center text-sm sm:text-lg text-wrap'>A celebration of glam light and <br /> shimmer</p>
                     </div>
-                    <div className='bg-gradient-to-br from-yellow-600/80 to-orange-500/80 w-[150px] p-1 sm:w-80 overflow-hidden'>
+                    <div className='bg-gradient-to-br from-yellow-600/80 to-orange-500/80 w-full p-1 sm:w-80 overflow-hidden'>
                     <div className='overflow-hidden'>
                          <NavLink to=''>
-                              <img src="https://cdn.pixabay.com/photo/2023/12/19/11/16/red-8457517_1280.jpg" className='w-full hover:scale-110 transition-transform h-60 sm:h-[450px] object-cover' />
+                              <img src="https://cdn.pixabay.com/photo/2023/12/19/11/16/red-8457517_1280.jpg" className='w-full hover:scale-110 transition-slow h-[50vh] sm:h-[450px] object-cover' />
                          </NavLink>
                     </div>
                          <h2 className=' w-full text-center text-lg text-wrap px-2 font-medium mt-4 '>The Antique Bride</h2>

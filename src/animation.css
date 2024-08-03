@@ -26,3 +26,7 @@ html,body{
 .Playwrite-AR{
      font-family: "Playwrite AR", cursive;
 }
+
+.transition-slow{
+     transition: 0.5s all ease-out;
+}
