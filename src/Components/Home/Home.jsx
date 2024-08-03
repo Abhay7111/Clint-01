@@ -13,8 +13,74 @@ import Shapes from '/Shapes.png';
 import { NavLink } from 'react-router-dom';
 import lftvid from '/19259-300109084_medium.mp4'
 import rghtvid from '/24571-344258644_medium.mp4'
+import Category from '../Category/Category';
 
 function Home() {
+     const categorydata = [
+          {
+               title:"Ring",
+               url:"earrings",
+               img:"https://cdn.pixabay.com/photo/2016/04/17/21/56/wedding-1335649_1280.png",
+               disc:"Explore >",
+               style:'w-[96%] h-[80%] hover:scale-110',
+          },
+          {
+               title:"Ring",
+               url:"earrings",
+               img:"https://cdn.pixabay.com/photo/2018/05/21/04/35/ring-3417372_1280.png",
+               disc:"Explore >",
+               style:'h-full hover:scale-110',
+          },
+          {
+               title:"Ornament",
+               url:"earrings",
+               img:"https://cdn.pixabay.com/photo/2018/05/23/18/08/ring-with-ornament-3424669_1280.png",
+               disc:"Explore >",
+               style:'h-full hover:scale-110',
+          },
+          {
+               title:"Ring",
+               url:"earrings",
+               img:"https://cdn.pixabay.com/photo/2019/11/24/14/15/diamond-4649510_1280.png",
+               disc:"Explore >",
+               style:'h-full hover:scale-110',
+          },
+          {
+               title:"Earrings",
+               url:"earrings",
+               img:"https://cdn.pixabay.com/photo/2022/03/01/18/12/bali-7041811_1280.jpg",
+               disc:"Explore >",
+               style:'h-full hover:scale-110',
+          },
+          {
+               title:"Earrings",
+               url:"earrings",
+               img:"https://cdn.pixabay.com/photo/2022/03/01/18/12/bali-7041811_1280.jpg",
+               disc:"Explore >",
+               style:'h-full hover:scale-110',
+          },
+          {
+               title:"Earrings",
+               url:"earrings",
+               img:"https://cdn.pixabay.com/photo/2022/03/01/18/12/bali-7041811_1280.jpg",
+               disc:"Explore >",
+               style:'h-full hover:scale-110',
+          },
+          {
+               title:"Earrings",
+               url:"earrings",
+               img:"https://cdn.pixabay.com/photo/2022/03/01/18/12/bali-7041811_1280.jpg",
+               disc:"Explore >",
+               style:'h-full hover:scale-110',
+          },
+          {
+               title:"Earrings",
+               url:"earrings",
+               img:"https://cdn.pixabay.com/photo/2022/03/01/18/12/bali-7041811_1280.jpg",
+               disc:"Explore >",
+               style:'h-full hover:scale-110',
+          },
+     ]
   return (
     <div className='max-w-[1370px] w-full flex flex-col items-center '>
      <Swiper
@@ -67,14 +133,23 @@ function Home() {
           <div className='w-32 sm:w-[25%] h-60 sm:h-[580px] '>
                <video src={lftvid} muted autoPlay loop className='w-full h-full object-cover object-center'></video>
           </div>
-          <div className='w-1/2 h-60 sm:h-[580px] bg-zinc-100 flex flex-col items-center'>
+          <div className='w-1/2 h-60 sm:h-[580px] bg-zinc-100 flex flex-col gap-[2%] sm:gap-14 items-center'>
                <h1 className='text-[7vw] sm:text-[5.5vw] uppercase font-medium leading-none pt-5'>Apsara</h1>
-               <p className='Playwrite-AR text-[4vw] sm:text-[4vw] pt-5 leading-none' title='By Vani jewelry'>By Vani jewelry</p>
+               <p className='Playwrite-AR text-[3vw] sm:text-[2vw] pt-5 leading-none text-center' title='By Vani jewelry'>By Vani jewelry</p>
                <p className='text-sm sm:text-3xl text-center py-5 sm:pt-10'>A fast moving world of <br /> expression</p>
-               <a href="#" className='text-base text-zinc-100 bg-gradient-to-b hover:from-rose-400 hover:to-zinc-800 transition-all from-slate-400 to-zinc-800 uppercase py-1.5 px-3 rounded-md bg-zinc-600'>View collections</a>
+               <NavLink to='View collections' className='text-base text-zinc-100 bg-gradient-to-b hover:from-rose-400 hover:to-zinc-800 transition-all from-slate-400 to-zinc-800 uppercase py-1.5 px-3 rounded-md bg-zinc-600'>View collections</NavLink>
           </div>
           <div className='w-32 sm:w-[25%] h-60 sm:h-[580px] '>
                <video src={rghtvid} muted autoPlay loop className='w-full h-full object-cover object-center'></video>
+          </div>
+     </div>
+     <div className='flex flex-col items-center gap-4'>
+          <p className='uppercase text-2xl'>Shop by</p>
+          <p className='uppercase text-5xl'>Category</p>
+          <div className='flex items-center flex-wrap gap-3 sm:gap-6 justify-center'>
+          {categorydata.map((item, index)=>(
+               <Category categorydata={item}/>
+          ))}
           </div>
      </div>
     </div>

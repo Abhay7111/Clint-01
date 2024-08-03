@@ -13,6 +13,10 @@ html,body{
      background-image: url(https://cdn.pixabay.com/photo/2016/04/10/21/28/flower-1320797_1280.png);
      background-size: 70px;
 }
+.bg-img2{
+     background-image: url(https://cdn.pixabay.com/photo/2016/10/29/01/43/abstract-1779632_1280.jpg);
+     background-size: cover;
+}
 
 .Playwrite-AR{
      font-family: "Playwrite AR", cursive;
