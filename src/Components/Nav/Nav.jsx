@@ -25,7 +25,7 @@ function Nav() {
           <li><NavLink to='Diamond' className={({isActive})=>`${ isActive ? 'text-orange-400' : 'text-zinc-800/80'} hover:text-orange-600`} >Diamond</NavLink></li>
           <li><NavLink to='Apsara' className={({isActive})=>`${ isActive ? 'text-orange-400' : 'text-zinc-800/80'} hover:text-orange-600`} >Apsara</NavLink></li>
           <li><NavLink to='Silver' className={({isActive})=>`${ isActive ? 'text-orange-400' : 'text-zinc-800/80'} hover:text-orange-600`} >Silver</NavLink></li>
-          <li><NavLink to='saving scheme' className={({isActive})=>` ${isActive ? 'bg-orange-500' : ''} py-2.5 text-nowrap text-zinc-50 font-medium px-3 bg-red-400 hover:bg-red-500 transition-all rounded-md`}>Saving scheme</NavLink></li>
+          <li><NavLink to='contact' className={({isActive})=>` ${isActive ? 'bg-orange-500' : ''} py-2.5 text-nowrap text-zinc-50 font-medium px-3 bg-red-400 hover:bg-red-500 transition-all rounded-md`}>Contact Us</NavLink></li>
           <li className='close sm:hidden absolute top-7 right-3 text-2xl font-bold text-zinc-900 size-8 rounded-full flex items-center justify-center hover:bg-zinc-800 hover:text-zinc-100 transition-all cursor-pointer'><i class="ri-close-line"></i></li>
      </ul>
      <div className='sm:hidden'><i className="ri-menu-line open text-2xl text-red-500 font-bold cursor-pointer"></i></div>

@@ -6,11 +6,13 @@ import './index.css';
 import './animation.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './Components/Home/Home.jsx';
+import Contact from './Components/Contact/Contact.jsx';
 
   const router = createBrowserRouter([
     {path:'/', element:<App/>,
       children:[
         {path:'', element:<Home/>,},
+        {path:'contact', element:<Contact/>,},
         {path:'*', element:<img src={Error404}/>,}
       ]
     },
