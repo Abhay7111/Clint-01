@@ -30,63 +30,63 @@ import Category from '../Category/Category';
 function Home() {
      const categorydata = [
           {
-               title:"Ring",
+               title:"Nose pin",
                url:"rings",
                img:Ring01,
                disc:"Explore >",
                style:'w-[96%] h-[80%] hover:scale-110',
           },
           {
-               title:"Ring",
+               title:"Nose pin",
                url:"rings",
                img:Ring02,
                disc:"Explore >",
                style:'h-full hover:scale-110',
           },
           {
-               title:"Ring",
+               title:"Nose pin",
                url:"rings",
                img:Ring03,
                disc:"Explore >",
                style:'h-full hover:scale-110',
           },
           {
-               title:"Ring",
+               title:"Nose pin",
                url:"rings",
                img:Ring04,
                disc:"Explore >",
                style:'h-full hover:scale-110',
           },
           {
-               title:"Ring",
+               title:"Nose pin",
                url:"rings",
                img:Ring05,
                disc:"Explore >",
                style:'h-full hover:scale-110',
           },
           {
-               title:"Ring",
+               title:"Nose pin",
                url:"rings",
                img:Ring06,
                disc:"Explore >",
                style:'h-full hover:scale-110',
           },
           {
-               title:"Ring",
+               title:"Nose pin",
                url:"rings",
                img:Ring07,
                disc:"Explore >",
                style:'h-full hover:scale-110',
           },
           {
-               title:"Ring",
+               title:"Nose pin",
                url:"rings",
                img:Ring08,
                disc:"Explore >",
                style:'h-full hover:scale-110',
           },
           {
-               title:"Ring",
+               title:"Nose pin",
                url:"rings",
                img:Ring09,
                disc:"Explore >",
@@ -114,7 +114,7 @@ function Home() {
                     <div className=' bg-gradient-to-br from-yellow-600/80 to-orange-500/80 w-[45%] p-1 sm:w-80 overflow-hidden'>
                     <div className='overflow-hidden'>
                          <NavLink to=''>
-                              <img src="https://cdn.pixabay.com/photo/2016/10/16/12/28/mehndi-designs-1745048_1280.jpg" className='w-full hover:scale-110 transition-slow h-80 sm:h-[450px] object-cover' />
+                              <img src="https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2019/05/shutterdownw.jpg" className='w-full hover:scale-110 transition-slow h-80 sm:h-[450px] object-cover' />
                          </NavLink>
                     </div>
                          <h2 className=' w-full text-center text-lg text-wrap px-2 font-medium mt-4 '>The Golden Bride</h2>
@@ -123,7 +123,7 @@ function Home() {
                     <div className='bg-gradient-to-br from-yellow-600/80 to-orange-500/80 w-[45%] p-1 sm:w-80 overflow-hidden'>
                     <div className='overflow-hidden'>
                          <NavLink to=''>
-                              <img src="https://cdn.pixabay.com/photo/2017/06/18/14/47/bindi-2416039_1280.jpg" className='w-full hover:scale-110 transition-slow h-80 sm:h-[450px] object-cover' />
+                              <img src="https://shaadiwish.com/blog/wp-content/uploads/2020/07/bridal-wedding-jewellery.jpg" className='w-full hover:scale-110 transition-slow h-80 sm:h-[450px] object-cover' />
                          </NavLink>
                     </div>
                          <h2 className=' w-full text-center text-lg text-wrap px-2 font-medium mt-4 '>The Diamond Bride</h2>
