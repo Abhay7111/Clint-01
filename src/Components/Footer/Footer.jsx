@@ -4,7 +4,8 @@ import expertsalution_qr from '/expertsalution_qr.png';
 
 function Footer() {
   return (
-    <div className='flex flex-col sm:flex-row bg-orange-200'>
+    <div>
+      <div className='flex flex-col sm:flex-row bg-orange-200'>
         <div className='w-full sm:w-[70%] p-5 flex flex-col sm:flex-row'>
           <div className='w-auto text-[#141414af]'>
           <img src={Logo_01} className='w-24'/>
@@ -56,6 +57,10 @@ function Footer() {
             </ul>
           </div>
         </div>
+    </div>
+    <div className='px-5 py-2 border-t bg-orange-200 border-zinc-500'>
+        <p className='text-xs text-zinc-600 font-light'>© Copyright 2024 @Vani jewellers All right reserved</p>
+    </div>
     </div>
   )
 }
