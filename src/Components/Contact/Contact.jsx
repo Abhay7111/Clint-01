@@ -25,8 +25,8 @@ function Contact() {
   };
 
   return (
-     <div className="bg-img-gold w-full">
-          <div className=" w-full flex bg-white/90 flex-col items-center py-10">
+     <div className="bg-img-gray w-full">
+          <div className=" w-full flex bg-white/70 flex-col items-center py-10">
                <h1 className=" text-4xl font-medium text-center w-fit px-5 py-1.5 mb-5 bg-gradient-to-tr from-orange-400 p-3 rounded-xl gap-2 to-orange-300 text-zinc-50">Contact Us</h1>
           <form onSubmit={onSubmit} className="w-fit bg-gradient-to-tr from-orange-400 p-3 rounded-xl gap-2 to-orange-300 flex flex-col items-center">
                <label htmlFor="" className="w-96 px-4 text-zinc-800 font-medium">Name</label>

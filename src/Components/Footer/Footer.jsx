@@ -4,7 +4,7 @@ import expertsalution_qr from '/expertsalution_qr.png';
 
 function Footer() {
   return (
-    <div className='flex flex-col sm:flex-row bg-orange-200 mt-20'>
+    <div className='flex flex-col sm:flex-row bg-orange-200'>
         <div className='w-full sm:w-[70%] p-5 flex flex-col sm:flex-row'>
           <div className='w-auto text-[#141414af]'>
           <img src={Logo_01} className='w-24'/>
