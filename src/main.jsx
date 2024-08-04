@@ -13,7 +13,7 @@ import Contact from './Components/Contact/Contact.jsx';
       children:[
         {path:'', element:<Home/>,},
         {path:'contact', element:<Contact/>,},
-        {path:'*', element:<img src={Error404}/>,}
+        {path:'*', element:<img src={Error404} className='h-[80vh] w-full object-cover object-center'/>,}
       ]
     },
   ])

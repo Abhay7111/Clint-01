@@ -19,75 +19,73 @@ import Ring06 from '/ring06-transformed.png';
 import Ring07 from '/ring07-transformed.png';
 import Ring08 from '/ring08-transformed.png';
 import Ring09 from '/ring09-transformed.png';
-import Ring10 from '/ring10-transformed.png';
-import Ring11 from '/ring11-transformed.png';
-import Ring12 from '/ring12-transformed.png';
 import { NavLink } from 'react-router-dom';
 import lftvid from '/19259-300109084_medium.mp4'
 import rghtvid from '/24571-344258644_medium.mp4'
 import Category from '../Category/Category';
+import SignatureJewellery from '../SignatureJewellery/SignatureJewellery';
 
 function Home() {
      const categorydata = [
           {
                title:"Nose pin",
-               url:"rings",
+               url:"nose pins012",
                img:Ring01,
                disc:"Explore >",
                style:'w-[96%] h-[80%] hover:scale-110',
           },
           {
-               title:"Nose pin",
-               url:"rings",
+               title:"Nose pin013",
+               url:"nose pins",
                img:Ring02,
                disc:"Explore >",
                style:'h-full hover:scale-110',
           },
           {
-               title:"Nose pin",
-               url:"rings",
+               title:"Nose pin014",
+               url:"nose pins",
                img:Ring03,
                disc:"Explore >",
                style:'h-full hover:scale-110',
           },
           {
-               title:"Nose pin",
-               url:"rings",
+               title:"Nose pin015",
+               url:"nose pins",
                img:Ring04,
                disc:"Explore >",
                style:'h-full hover:scale-110',
           },
           {
                title:"Nose pin",
-               url:"rings",
+               url:"nose pins016",
                img:Ring05,
                disc:"Explore >",
                style:'h-full hover:scale-110',
           },
           {
                title:"Nose pin",
-               url:"rings",
+               url:"nose pins017",
                img:Ring06,
                disc:"Explore >",
                style:'h-full hover:scale-110',
           },
           {
                title:"Nose pin",
-               url:"rings",
+               url:"nose pins018",
                img:Ring07,
                disc:"Explore >",
                style:'h-full hover:scale-110',
           },
           {
                title:"Nose pin",
-               url:"rings",
+               url:"nose pins019",
                img:Ring08,
                disc:"Explore >",
                style:'h-full hover:scale-110',
           },
           {
                title:"Nose pin",
-               url:"rings",
+               url:"nose pins020",
                img:Ring09,
                disc:"Explore >",
                style:'h-full hover:scale-110',
@@ -147,9 +145,9 @@ function Home() {
           </div>
           <div className='w-1/2 h-60 sm:h-[580px] bg-zinc-100 flex flex-col gap-[2%] sm:gap-14 items-center relative'>
           <div className='absolute w-full h-full opacity-20 bg-img2 z-0'></div>
-               <h1 className='text-[7vw] sm:text-[5.5vw] uppercase relative  font-medium leading-none pt-5'>Apsara</h1>
-               <p className='Playwrite-AR text-[3vw] sm:text-[2vw] relative  pt-5 leading-none text-center' title='By Vani jewelry'>By Vani jewelry</p>
-               <p className='text-sm sm:text-3xl text-center py-5  relative sm:pt-10'>A fast moving world of <br /> expression</p>
+               <h1 className='text-[7vw] sm:text-[5.5vw] uppercase relative  font-medium leading-none pt-5 text-zinc-600'>Apsara</h1>
+               <p className='Playwrite-AR text-[3vw] sm:text-[2vw] relative  pt-5 leading-none text-center text-zinc-600' title='By Vani jewelry'>By Vani jewelry</p>
+               <p className='text-sm sm:text-3xl text-center py-5  relative sm:pt-10 text-zinc-600 font-light'>A fast moving world of <br /> expression</p>
                <NavLink to='View collections' className='text-base relative  text-zinc-100 bg-gradient-to-b hover:from-orange-400 hover:to-zinc-800 transition-all from-slate-400 to-zinc-800 uppercase py-1.5 px-3 rounded-md bg-zinc-600'>View collections</NavLink>
           </div>
           <div className='w-32 sm:w-[25%] h-60 sm:h-[580px] '>
@@ -157,13 +155,17 @@ function Home() {
           </div>
      </div>
      <div className='flex flex-col items-center gap-4'>
-          <p className='uppercase text-2xl'>Shop by</p>
-          <p className='uppercase text-5xl'>Category</p>
+          <p className='uppercase text-2xl text-zinc-600'>Shop by</p>
+          <p className='uppercase text-5xl text-zinc-600'>Category</p>
           <div className='flex items-center flex-wrap gap-3 sm:gap-6 justify-center'>
           {categorydata.map((item, index)=>(
                <Category categorydata={item}/>
           ))}
           </div>
+     </div>
+     <h2 className='w-full mt-10 font-light text-2xl text-zinc-500 text-center uppercase'>Signature heritage jewellery</h2>
+     <div className='mt-3 flex items-center justify-center bg-img-gray relative w-[98%] before:w-full before:h-full before:absolute before:bg-white/70 py-10 before:z-0'>
+          <SignatureJewellery/>
      </div>
     </div>
   )
