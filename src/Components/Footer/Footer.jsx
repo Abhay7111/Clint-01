@@ -11,12 +11,12 @@ function Footer() {
           <p className='text-sm font-light mt-6'>Since 1954, Navrathan has delighted the connoisseurs of India with breathtaking designs, intricate craftsmanship and ancient techniques, presenting a wealth of gold, diamond & platinum jewellery to adorn the modern day woman.</p>
           <p className='text-sm font-light mt-6'>Navrathan's specializes in integrating temple jewellery designs into modern settings that are contemporary marvels from meenakari, kundan and polki styles.</p>
           <div className=' flex items-start justify-start gap-4 mt-4 px-3'>
-          <img src={expertsalution_qr} className=' w-32' />
+          <img src={expertsalution_qr} className=' w-40' />
           <div className='flex flex-col gap-2'>
-            <a href="#">Gold Plaza, 26, Adi Banstalla Lane <br /> 4th Floor, Shop No. 403 Kolkata-700 007</a>
-            <span><a className='hover:text-blue-600 hover:underline underline-offset-2' href="https://wa.me/+918583898958?text=">8583898958</a> / <a className='hover:text-blue-600 hover:underline underline-offset-2' href="https://wa.me/+918420310541?text=">8420310541</a></span>
-            <a className='hover:text-blue-600 hover:underline underline-offset-2' href="mailto:vanijewels@yahoo.com">vanijewels@yahoo.com</a>
-            <a className='hover:text-blue-600 hover:underline underline-offset-2' href="https://vanijewels.co">vanijewels.co</a>
+            <a href="#"><i class="ri-map-pin-line"></i> Gold Plaza, 26, Adi Banstalla Lane <br /> 4th Floor, Shop No. 403 Kolkata-700 007</a>
+            <span><a className='hover:text-blue-600 hover:underline underline-offset-2' href="https://wa.me/+918583898958?text="><i className=' ri-whatsapp-line'></i> 8583898958</a> / <a className='hover:text-blue-600 hover:underline underline-offset-2' href="https://wa.me/+918420310541?text=">8420310541</a></span>
+            <a className='hover:text-blue-600 hover:underline underline-offset-2' href="mailto:vanijewels@yahoo.com"><i className='ri-mail-send-line'></i> vanijewels@yahoo.com</a>
+            <a className='hover:text-blue-600 hover:underline underline-offset-2' href="https://vanijewels.co"><i class="ri-global-line"></i> vanijewels.co</a>
           </div>
           </div>
           </div>
