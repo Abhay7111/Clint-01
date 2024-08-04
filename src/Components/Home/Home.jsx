@@ -24,6 +24,7 @@ import lftvid from '/19259-300109084_medium.mp4'
 import rghtvid from '/24571-344258644_medium.mp4'
 import Category from '../Category/Category';
 import SignatureJewellery from '../SignatureJewellery/SignatureJewellery';
+import FeaturedProducts from '../FeaturedProducts/FeaturedProducts';
 
 function Home() {
      const categorydata = [
@@ -155,7 +156,7 @@ function Home() {
           </div>
      </div>
      <div className='flex flex-col items-center gap-4'>
-          <p className='uppercase text-2xl text-zinc-600'>Shop by</p>
+          <p className='uppercase text-2xl text-zinc-600 font-light'>Shop by</p>
           <p className='uppercase text-5xl text-zinc-600'>Category</p>
           <div className='flex items-center flex-wrap gap-3 sm:gap-6 justify-center'>
           {categorydata.map((item, index)=>(
@@ -166,6 +167,30 @@ function Home() {
      <h2 className='w-full mt-10 font-light text-2xl text-zinc-500 text-center uppercase'>Signature heritage jewellery</h2>
      <div className='mt-3 flex items-center justify-center bg-img-gray relative w-[98%] before:w-full before:h-full before:absolute before:bg-white/70 py-10 before:z-0'>
           <SignatureJewellery/>
+     </div>
+     <div>
+          <h2 className='uppercase text-2xl py-5 font-light text-zinc-600 w-full text-center'>Featured poducts</h2>
+          <FeaturedProducts/>
+     </div>
+     <div className='flex items-center bg-zinc-100 justify-around py-10 gap-5 w-full'>
+          <NavLink to='contact'>
+          <div className='flex px-5 py-2 rounded-lg flex-col items-center justify-center'> 
+               <i className='ri-truck-fill text-red-500 text-3xl'></i>
+               <p className='text-xl text-zinc-800'>Free Delivery!</p>
+          </div>
+          </NavLink>
+          <NavLink to='contact'>
+          <div className='flex px-5 py-2 rounded-lg flex-col items-center justify-center'> 
+               <i className='ri-map-pin-fill text-red-500 text-3xl'></i>
+               <p className='text-xl text-zinc-800'>Your Nearest Stores</p>
+          </div>
+          </NavLink>
+          <a href="#">
+          <div className='flex px-5 py-2 rounded-lg flex-col items-center justify-center'> 
+               <i className='ri-gift-fill text-red-500 text-3xl'></i>
+               <p className='text-xl text-zinc-800'>Gift Cards</p>
+          </div>
+          </a>
      </div>
     </div>
   )
