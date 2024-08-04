@@ -1,5 +1,6 @@
 import React from 'react';
-import Logo_01 from '/Logo_01-transformed.png'
+import Logo_01 from '/Logo_01-transformed.png';
+import expertsalution_qr from '/expertsalution_qr.png';
 
 function Footer() {
   return (
@@ -9,6 +10,15 @@ function Footer() {
           <img src={Logo_01} className='w-24'/>
           <p className='text-sm font-light mt-6'>Since 1954, Navrathan has delighted the connoisseurs of India with breathtaking designs, intricate craftsmanship and ancient techniques, presenting a wealth of gold, diamond & platinum jewellery to adorn the modern day woman.</p>
           <p className='text-sm font-light mt-6'>Navrathan's specializes in integrating temple jewellery designs into modern settings that are contemporary marvels from meenakari, kundan and polki styles.</p>
+          <div className=' flex items-start justify-start gap-4 mt-4 px-3'>
+          <img src={expertsalution_qr} className=' w-32' />
+          <div className='flex flex-col gap-2'>
+            <a href="#">Gold Plaza, 26, Adi Banstalla Lane <br /> 4th Floor, Shop No. 403 Kolkata-700 007</a>
+            <span><a className='hover:text-blue-600 hover:underline underline-offset-2' href="https://wa.me/+918583898958?text=">8583898958</a> / <a className='hover:text-blue-600 hover:underline underline-offset-2' href="https://wa.me/+918420310541?text=">8420310541</a></span>
+            <a className='hover:text-blue-600 hover:underline underline-offset-2' href="mailto:vanijewels@yahoo.com">vanijewels@yahoo.com</a>
+            <a className='hover:text-blue-600 hover:underline underline-offset-2' href="https://vanijewels.co">vanijewels.co</a>
+          </div>
+          </div>
           </div>
           <div className=''>
               <h2 className='py-3 font-medium text-lg'>Instagram</h2>
