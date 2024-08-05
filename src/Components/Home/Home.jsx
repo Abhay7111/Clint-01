@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import { Pagination, Navigation } from 'swiper/modules';
+import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -97,8 +97,13 @@ function Home() {
      <Swiper
         slidesPerView={1}
         spaceBetween={30}
-        loop={true}
-        modules={[Pagination, Navigation]}
+     //    loop={true}
+         navigation={true}
+     autoplay={{
+          delay: 3500,
+          disableOnInteraction: false,
+        }}
+        modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper w-full"
       >
       <SwiperSlide className=' w-96'><img src={gold} className='w-full h-80 sm:h-[80vh] object-cover object-center' /></SwiperSlide>
