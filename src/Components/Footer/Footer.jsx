@@ -9,8 +9,8 @@ function Footer() {
         <div className='w-full sm:w-[70%] p-5 flex flex-col sm:flex-row'>
           <div className='w-auto text-[#141414af]'>
           <img src={Logo_01} className='w-24'/>
-          <p className='text-sm font-light mt-6'>Since 1954, Navrathan has delighted the connoisseurs of India with breathtaking designs, intricate craftsmanship and ancient techniques, presenting a wealth of gold, diamond & platinum jewellery to adorn the modern day woman.</p>
-          <p className='text-sm font-light mt-6'>Navrathan's specializes in integrating temple jewellery designs into modern settings that are contemporary marvels from meenakari, kundan and polki styles.</p>
+          <p className='text-sm font-light mt-6'>Since 1990, Navrathan has delighted the connoisseurs of India with breathtaking designs, intricate craftsmanship and ancient techniques, presenting a wealth of gold, diamond & platinum jewellery to adorn the modern day woman.</p>
+          <p className='text-sm font-light mt-6'>Vani Jewellers in integrating temple jewellery designs into modern settings that are contemporary marvels from meenakari, kundan and polki styles.</p>
           <div className=' flex items-start justify-start gap-4 mt-4 px-3'>
           <img src={expertsalution_qr} className=' w-40' />
           <div className='flex flex-col gap-2'>
