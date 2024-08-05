@@ -19,6 +19,12 @@ import Ring06 from '/ring06-transformed.png';
 import Ring07 from '/ring07-transformed.png';
 import Ring08 from '/ring08-transformed.png';
 import Ring09 from '/ring09-transformed.png';
+import Ring13 from '/Ring13.png';
+import Ring14 from '/Ring14.png';
+import necklace_01 from '/necklace_01-transformed.png';
+import necklace_02 from '/necklace_02-transformed.png';
+import necklace_03 from '/necklace_03-transformed.png';
+import necklace_04 from '/necklace_04.png';
 import { NavLink } from 'react-router-dom';
 import lftvid from '/19259-300109084_medium.mp4'
 import rghtvid from '/24571-344258644_medium.mp4'
@@ -29,46 +35,46 @@ import FeaturedProducts from '../FeaturedProducts/FeaturedProducts';
 function Home() {
      const categorydata = [
           {
-               title:"Nose pin",
+               title:"Ring",
                url:"nose pins012",
-               img:Ring01,
+               img:Ring14,
                disc:"Explore >",
                style:'w-[96%] h-[80%] hover:scale-110',
           },
           {
-               title:"Nose pin013",
-               url:"nose pins",
+               title:"Nose pin",
+               url:"nose pins013",
                img:Ring02,
                disc:"Explore >",
                style:'h-full hover:scale-110',
           },
           {
-               title:"Nose pin014",
-               url:"nose pins",
+               title:"Nose pin",
+               url:"nose pins014",
                img:Ring03,
                disc:"Explore >",
                style:'h-full hover:scale-110',
           },
           {
-               title:"Nose pin015",
-               url:"nose pins",
-               img:Ring04,
+               title:"Necklace",
+               url:"necklace_01",
+               img:necklace_01,
+               disc:"Explore >",
+               style:'h-[90%] hover:scale-110',
+          },
+          {
+               title:"Necklace",
+               url:"necklace_02",
+               img:necklace_02,
                disc:"Explore >",
                style:'h-full hover:scale-110',
           },
           {
-               title:"Nose pin",
-               url:"nose pins016",
-               img:Ring05,
+               title:"Necklace",
+               url:"necklace_03",
+               img:necklace_03,
                disc:"Explore >",
-               style:'h-full hover:scale-110',
-          },
-          {
-               title:"Nose pin",
-               url:"nose pins017",
-               img:Ring06,
-               disc:"Explore >",
-               style:'h-full hover:scale-110',
+               style:'h-[87%] hover:scale-110',
           },
           {
                title:"Nose pin",
@@ -78,16 +84,16 @@ function Home() {
                style:'h-full hover:scale-110',
           },
           {
-               title:"Nose pin",
+               title:"Necklace",
                url:"nose pins019",
-               img:Ring08,
+               img:necklace_04,
                disc:"Explore >",
                style:'h-full hover:scale-110',
           },
           {
                title:"Nose pin",
                url:"nose pins020",
-               img:Ring09,
+               img:Ring13,
                disc:"Explore >",
                style:'h-full hover:scale-110',
           },
