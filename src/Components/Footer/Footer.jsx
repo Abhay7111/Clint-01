@@ -33,7 +33,7 @@ function Footer() {
         <div className='w-full sm:w-[30%] p-5 px-8 flex flex-col gap-2 '>
           <h2 className='text-xl font-medium mb-2'>Follow us on Social Media</h2>
           <span className='text-2xl flex gap-3 hover:text-zinc-800/50 w-fit'>
-            <a href="#"><i class="transition-all hover:text-zinc-800 ri-instagram-line"></i></a>
+            <a href="https://www.instagram.com/vanijewels.co?igsh=MTN6Ymkwbzhxa3ZsZA=="><i class="transition-all hover:text-zinc-800 ri-instagram-line"></i></a>
             <a href="#"><i class="transition-all hover:text-zinc-800 ri-facebook-fill"></i></a>
             <a href="#"><i class="transition-all hover:text-zinc-800 ri-pinterest-line"></i></a>
           </span>
